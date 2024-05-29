@@ -16,26 +16,22 @@ export const LIVE_EVENT_TOAST = true;
 
 export const FOOTER_LINKS = [
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-    title: "👨‍💻 Build your own",
+    href: "https://solcasino.fun",
+    title: "👨‍💻 Degenerate Casino",
   },
   {
-    href: "https://explorer.gamba.so/create",
+    href: "https://explorer.gamba.so/pools",
     title: "🚀 Create Pool",
   },
   {
-    href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
-  },
-  {
-    href: "https://discord.com/invite/HSTtFFwR",
+    href: "https://discord.com/",
     title: "💬 Join Discord",
   },
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://twitter.com/SolCasino",
+  title: "© 2024 made with ❤️",
 };
 
 /******************************************
@@ -45,29 +41,29 @@ export const FOOTER_TWITTER_LINK = {
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "Gamba - NEXTjs Demo",
+  defaultTitle: "SolCasino",
   description:
-    "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
+    "The gambleFi protocol for on-chain degeneracy on Solana.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://play-gamba.vercel.app/",
-    title: "Gamba - NEXTjs Demo",
+    title: "SolCasion",
     description:
-      "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
+      "The gambleFi for on-chain degeneracy on Solana.",
     images: [
       {
         url: "https://play-gamba.vercel.app/seo.png",
-        alt: "Gamba - NEXTjs Demo",
+        alt: "SolCasino",
       },
     ],
-    site_name: "Gamba - NEXTjs Demo",
+    site_name: "SolCasino",
   },
-  twitter: {
+  /*twitter: {
     cardType: "summary_large_image",
     site: "https://twitter.com/gambalabs",
     handle: "@gambalabs",
-  },
+  },*/
   additionalMetaTags: [
     {
       name: "keywords",
@@ -107,15 +103,15 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // GUAC
+  // SPEND
   {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
+    mint: new PublicKey("3mp1MN5v7zdGXTvvcC9zUMoszMrh9pNdaCDkAQKc7Fec"),
+    name: "SolSpend",
+    symbol: "SPEND",
     image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
+      "https://bafkreic4r56jg7fvkthkfzmmfy2z6ypfltqgowjvs44ghf32nh2nz77tva.ipfs.nftstorage.link/",
     decimals: 5,
-    baseWager: 2000000e5,
+    baseWager: 2e3,
   },
 
   // Add New Public pool
